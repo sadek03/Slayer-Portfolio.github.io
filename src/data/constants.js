@@ -1,3 +1,6 @@
+import pduam from "../assets/pduamlogo.png";
+import PenProgrammer from "../assets/penProgrammer.png";
+import growhub from "../assets/growhub.png";
 export const Bio = {
   name: "Sadek Ali",
   roles: [
@@ -60,9 +63,9 @@ export const skills = [
           "data:image/png;base64,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",
       },
       {
-        name: "Flutter",
+        name: "React Native",
         image:
-          "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg",
       },
     ],
   },
@@ -173,9 +176,9 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    // img: "/penProgrammer.png",
+    img: PenProgrammer,
     role: "Web Devloper Intern",
-    company: "PenProgrammer Pvt. Ltd.",
+    company: "Pen-Programmer",
     date: "Jan 2023 - July 2023",
     desc: "Working on React Platforms, and streamlining the process with automation.",
     skills: [
@@ -193,9 +196,9 @@ export const experiences = [
   },
   {
     id: 1,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
+    img: PenProgrammer,
     role: "Frontend Engineer Intern",
-    company: "PenProgrammer Pvt. Ltd.",
+    company: "Pen-Programmer",
     date: "Jan 2023 - July 2023",
     desc: "Working on the frontend of the web application using NextJS, ReactJS, Redux, Shadcn, Material UI ETC",
     skills: [
@@ -212,7 +215,7 @@ export const experiences = [
   },
   {
     id: 2,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
+    img: PenProgrammer,
     role: "Fullstack Internship",
     company: "PenProgrammer Pvt. Ltd.",
     date: "NOV 2023 - MARCH 2024",
@@ -225,14 +228,13 @@ export const experiences = [
       "HTML",
       "CSS",
       "JavaScript",
-      "Docker",
-      "AWS",
+      "MySql",
       "MongoDB",
     ],
   },
   {
     id: 3,
-    img: "https://www.growhub.shop/assets/whiteLogo.png",
+    img: PenProgrammer,
     role: "Fullstack Devlopper",
     company: "growhub.shop Pvt. Ltd.",
     date: "March 2024 - Present",
@@ -254,25 +256,19 @@ export const experiences = [
 
   {
     id: 4,
-    // img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
+    img: PenProgrammer,
     role: "Android Developer",
     company: "PenProgrammer",
     date: "Present",
     desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
+    skills: ["Leadership", "Mobile Application Development", "Figma"],
   },
 ];
 
 export const education = [
   {
     id: 0,
-    // img: "https://pdduamdalgaon.in/wp-content/uploads/2020/06/cropped-RUSA.png",
+    img: "https://pdduamdalgaon.in/wp-content/uploads/2020/06/cropped-RUSA.png",
     school: "Pandit Deendayal Upadhyaya Adarsha Mahavidyalaya, Dalgaon",
     date: "Oct 2021 - Sep 2024",
     grade: "6.71 CGPA",
@@ -281,7 +277,7 @@ export const education = [
   },
   {
     id: 1,
-    // img: "/pduamlogo.png",
+    img: pduam,
     school: "Bsjv, Assam",
     date: "Apr 2019 - Apr 2021",
     grade: "64.2%",
@@ -290,7 +286,7 @@ export const education = [
   },
   {
     id: 2,
-    // img: "/pduamlogo.png",
+    img: "/assets/pduamlogo.png",
     school: "Bsjv, Assam",
     date: "Apr 2005 - Apr 2018",
     grade: "74.3%",
@@ -308,7 +304,7 @@ export const projects = [
       // "Trackify is a web application designed to streamline task management and enhance productivity in the workplace. It provides a user-friendly interface for employers to keep track of their employees' daily work activities and empowers employees to log their tasks efficiently. \nAdmin Credentials: # Email: testadmin@gmail.com #Password- 123@testadmin, Employee Credentials:	#Email: testemployee@gmail.com	#Password- 123@Testemployee",
 
       "Growhub is an eCommerce platform designed to streamline task management and enhance productivity in the workplace. In addition to its robust eCommerce capabilities, Growhub offers a user-friendly interface for employers to keep track of their employees' daily work activities, while empowering employees to log their tasks efficiently. This combination of task management and eCommerce functionality makes Growhub a comprehensive solution for businesses looking to optimize both their operations and online presence.",
-    image: "https://www.growhub.shop/assets/whiteLogo.png",
+    image: growhub,
     tags: ["React Js", "Node Js", "MongoDb", "Eslint", "Express Js", "Redux"],
     category: "web app",
     github: "https://github.com/sadek03",
