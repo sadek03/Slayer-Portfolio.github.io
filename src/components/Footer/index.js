@@ -109,7 +109,9 @@ function Footer() {
             <InstagramIcon />
           </SocialMediaIcon>
         </SocialMediaIcons>
-        <Copyright>&copy; 2024 Slayer. All rights reserved.</Copyright>
+        <Copyright>
+          &copy; {new Date().getFullYear()} Slayer. All rights reserved .
+        </Copyright>
       </FooterWrapper>
     </FooterContainer>
   );
