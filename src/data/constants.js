@@ -233,7 +233,7 @@ export const experiences = [
   {
     id: 3,
     img: "https://www.growhub.shop/assets/whiteLogo.png",
-    role: "Fullstack Employ",
+    role: "Fullstack Devlopper",
     company: "growhub.shop Pvt. Ltd.",
     date: "March 2024 - Present",
     desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
