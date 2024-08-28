@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/Slayer-Portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/Slayer-Portfolio/static/js/main.2c91fdfa.js",
+    "static/media/HeroImage.jpg": "/Slayer-Portfolio/static/media/HeroImage.b3909c3c5bf0600a9a2d.jpg",
+    "index.html": "/Slayer-Portfolio/index.html",
+    "main.bf538fe7.css.map": "/Slayer-Portfolio/static/css/main.bf538fe7.css.map",
+    "main.2c91fdfa.js.map": "/Slayer-Portfolio/static/js/main.2c91fdfa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.2c91fdfa.js"
+  ]
+}
